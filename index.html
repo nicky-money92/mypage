@@ -1,94 +1,121 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="소문난 닉키 - 프로필 링크">
-    <meta property="og:description" content="어서와 돈버는 마케팅은 처음이지?">
+    <meta property="og:title" content="돈버는 마케팅, 소문난 닉키">
+    <meta property="og:description" content="경제적 자유를 위한 마케팅을 배워보고 싶나요?">
     <meta property="og:image" content="소문난 닉키.gif">
     <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
-    <title>르탄이 - 프로필 링크</title>
+    <title>돈버는 마케팅, 소문난 닉키</title>
     <style>
         @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         * {
             font-family: "Pretendard",serif;
         }
-       body {
-           background-color: #44398A;
-       }
-       .profile {
-        width: 100px;
-        height: 100px;
-
-        background-color: green;
-        border-radius: 100%;
-
-        border : 2px solid white;
-
-        background-image: url('소문난 닉키.gif');
-        background-position: center;
-        background-size: cover;
-       }
-       .main {
-            color: white;
-            font-size: 20px;
-
+        body {
+            background: linear-gradient(180deg, #FFFCFD 0%, #FFE2E8 100%);
+            height: 100vh;
+          }
+          .profile {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            border: 2px solid black;
+            background-image: url('소문난 닉키.gif');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color : #000000;
+            font-size: 22px;
+            size : 20px;
             margin-top: 30px;
             margin-bottom: 10px;
-       }
-       .sub {
-            color: white;
+        }
+        .sub {
+            color : #000000;
             font-size: 14px;
-
+            font-weight: 400;
+            size : 14px;
             margin-top: 0px;
             margin-bottom: 30px;
-       }
-       .wrap {
-
-        width: 300px;
-        margin: 30px auto 0px auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       }
-       .wrap > a {
-        width: 300px;
-        height: 50px;
-
-        background-color: white;
-        border-radius: 8px;
-
-        margin-bottom: 10px;
-
-        font-size: 14px;
-        font-weight: bold;
-        color: #44398A;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        text-decoration: none;
-
-        box-shadow: 3px 3px 5px 0px black;
-       }
-       .wrap > a:hover {
-        background-color: #d2d2d2;
-        font-size:  20px;
-       }
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bigbutton {
+            width: 320px;
+            height: 59px;
+            border-radius: 8px;
+            background-color: white;
+            margin-bottom: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            color:#000000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0px 4px 16px rgba(232, 52, 78, 0.2);
+        }
+        .buttons > a {
+            width: 152px;
+            height: 59px;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: bold;
+            color:#FFFFFF;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0px 4px 16px rgba(232, 52, 78, 0.2);
+            margin: 0px 8px 17px 8px;
+        }
+        .dding {
+            background-color: #3d7c29;
+        }
+        .online {
+            background-color: #e8344e;
+        }
+        .hang {
+            background-color: #71792a;
+        }
+        .chang {
+            background-color: #0f16ae;
+        }
+        .buttons {
+            display: flex;
+        }
+        .wrap > a:hover {
+            background-color: #f2f2f2;
+        }
     </style>
 </head>
 <body>
     <div class="wrap">
         <div class="profile"></div>
-        <h1 class="main">소문난 닉키</h1>
-        <p class="sub">돈버는 마케팅.. 궁금하세요?</p>
-        <a target="_blank" href="https://blog.naver.com/ncgdur1864">돈버는 마케팅, 소문난 닉키(Blog)</a>
-        <a target="_blank" href="http://pf.kakao.com/_nAMxlb">돈버는 마케팅, 소문난 닉키(KKV)</a>
+        <h1 class="main">돈버는 마케팅, 소문난 닉키</h1>
+        <p class="sub">경제적 자유를 위한 마케팅을 배워보고 싶나요?</p>
+        <a class="bigbutton"target="_blank" href="https://blog.naver.com/ncgdur1864/222720715537">🧚‍♂️ 블로그 마케팅</a>
+        <a class="bigbutton"target="_blank" href="https://blog.naver.com/ncgdur1864/222772350517">🧚‍♀️ 온라인 마케팅</a>
+        <div class="buttons">
+            <a class="dding" target="_blank" href="https://blog.naver.com/ncgdur1864">블로그</a>
+            <a class="online"target="_blank" href="https://www.instagram.com/nicky_money92/">인스타그램</a>
+        </div>
+        <div class="buttons">
+            <a class="hang" target="_blank" href="http://pf.kakao.com/_nAMxlb">카카오뷰</a>
+            <a class="chang"target="_blank" href="https://open.kakao.com/o/gq1sFbbe">오픈카톡방</a>
+        </div>
     </div>
 </body>
 </html>
